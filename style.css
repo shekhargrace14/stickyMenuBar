@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-color: #121212;
+    --secondary-color: #272727;
+    --active-bg-color: #282828cc;
+}
+
+html{
+    overflow-x: hidden;
+
+}
+
+body{
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    height: 100vh;
+
+}
+/* Global CSS start  */
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 3% 0;
+    
+}
+.column{
+ 
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+
+span{
+    display: block;
+}
+/* Global CSS start  */
+/* header starts here  */
+header{
+    background-color: var(--secondary-color);
+    /* width: 100vw;
+    overflow:hidden ; */
+    background-attachment: fixed;
+}
+header .row{
+    /* background-color: blue; */
+    padding: 1% 0;
+}
+header .logo{
+    width: 10%;
+    /* background-color: red; */
+}
+header .logo img{
+    width: 50%;
+    /* background-color: green; */
+}
+header .navbar ul li{
+    color: white;
+    padding: 10px 20px;
+}
+header .navbar ul li:hover{
+    background-color: var(--primary-color);
+}
+header #hamburgerMenu{
+    display: none;
+}
+header #hamburgerMenu span{
+    display: block;
+    width: 35px;
+    height: 2.5px;
+    margin: 8px 0;
+    background-color: white;
+}
+/* header ends here  */
+/* hero starts here */
+
+.hero .column{
+    width: 50%;
+    /* background-color: red; */
+}
+.hero .column img{
+    width: 80%;
+}
+
+/* hero ends here */
