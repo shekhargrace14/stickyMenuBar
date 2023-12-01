@@ -79,7 +79,7 @@ header{
     background-color: var(--secondary-color);
     /* width: 100vw;
     overflow:hidden ; */
-    background-attachment: fixed;
+
 }
 header .row{
     /* background-color: blue; */
@@ -119,6 +119,11 @@ header #hamburgerMenu span{
 }
 .hero .column img{
     width: 80%;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* hero ends here */

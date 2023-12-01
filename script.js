@@ -1,30 +1,6 @@
-let hamburgerMenu = document.getElementById("hamburgerMenu");
-let navbar = document.getElementById("navbar");
-let topBar = document.getElementById("topBar");
-let middleBar = document.getElementById("middleBar")
-let bottomBar = document.getElementById("bottomBar")
+// let header = document.getElementById("header");
 
-
-hamburgerMenu.addEventListener("click", function(){
-    console.log("ham is a burger menu");
-    navbar.classList.toggle("active");
-    // hamburgerMenu.style.backgroundColor="red";
-    topBar.classList.toggle("topBarRotate");
-    middleBar.classList.toggle("middleBarHide");
-    middleBar.classList.toggle("middleBarHide");
-    bottomBar.classList.toggle("bottomBarRotate");
-    
-})
-
-let header = document.getElementById("header")
-
-window.addEventListener('scroll',function(){
-    if(this.window.scrollY>=80){
-        header.classList.add('sticky')
-    }
-    else{
-        header.cla
-    }
-    
-    
+window.addEventListener('scroll', function(){
+    // header.style.backgroundColor ="red"
+    console.log("scrolling")
 })
